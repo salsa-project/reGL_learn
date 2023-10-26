@@ -1,0 +1,28 @@
+{
+  "name": "regl",
+  "version": "0.0.1",
+  "description": "",
+  "main": "learn.js",
+  "scripts": {
+    "start": "budo learn.js --live",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webgl",
+    "regl",
+    "2d",
+    "3d",
+    "shaders"
+  ],
+  "author": "MrSalsa",
+  "license": "MIT",
+  "dependencies": {
+    "angle-normals": "^1.0.0",
+    "budo": "^11.8.4",
+    "bunny": "^1.0.1",
+    "gl-mat4": "^1.2.0",
+    "glslify": "^7.1.1",
+    "perspective-camera": "^2.0.1",
+    "regl": "^2.1.0"
+  }
+}
